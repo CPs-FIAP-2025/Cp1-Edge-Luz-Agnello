@@ -46,10 +46,9 @@ Este projeto utiliza os seguintes componentes e bibliotecas:
 4. Observe o comportamento dos LEDs e do buzzer conforme a luminosidade medida pelo LDR.
 
 ### Links
-[Explicação do projeto](https://youtu.be/_LaBL8qI7jM)
-[Video da simulação do projeto](https://youtu.be/e591pWs6vWA)
-
-[Link para o projeto no Tinkercad](https://www.tinkercad.com/things/l7pnKNk0qqP-checkpoint-edge-computing?sharecode=Xh78C57ftSR-SLFza6o3P4ynKTP5CHEb3h0ymAcwPg0)
+[Explicação do projeto](https://youtu.be/_LaBL8qI7jM)<br>
+[Video da simulação do projeto](https://youtu.be/e591pWs6vWA)<br>
+[Link para o projeto no Tinkercad](https://www.tinkercad.com/things/l7pnKNk0qqP-checkpoint-edge-computing?sharecode=Xh78C57ftSR-SLFza6o3P4ynKTP5CHEb3h0ymAcwPg0)<br>
 
 ### Nome Integrantes e RM
 
