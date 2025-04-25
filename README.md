@@ -45,6 +45,12 @@ Este projeto utiliza os seguintes componentes e bibliotecas:
 3. Copie o código acima para a IDE e faça o upload para o seu Arduino.
 4. Observe o comportamento dos LEDs e do buzzer conforme a luminosidade medida pelo LDR.
 
+### Links
+[Explicação do projeto](https://youtu.be/_LaBL8qI7jM)
+[Video da simulação do projeto](https://youtu.be/e591pWs6vWA)
+
+[Link para o projeto no Tinkercad](https://www.tinkercad.com/things/l7pnKNk0qqP-checkpoint-edge-computing?sharecode=Xh78C57ftSR-SLFza6o3P4ynKTP5CHEb3h0ymAcwPg0)
+
 ### Nome Integrantes e RM
 
 Leonardo Da Silva Pinto 564929 <br>
