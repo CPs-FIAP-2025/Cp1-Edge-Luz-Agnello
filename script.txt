@@ -7,40 +7,40 @@ int buzzer = 9;
 
 void setup()
 {
-    pinMode(verde, OUTPUT);
-    pinMode(amarelo, OUTPUT);
-    pinMode(vermelho, OUTPUT);
-    Serial.begin(9600);
-    pinMode(buzzer, OUTPUT);
+  pinMode(verde, OUTPUT);
+  pinMode(amarelo, OUTPUT);
+  pinMode(vermelho, OUTPUT);
+  Serial.begin(9600);
+  pinMode(buzzer, OUTPUT);
 }
 
 void loop()
 {
-    val = analogRead(sensorPin);         // recebe o valor do potenciometro
-    int luz = map(val, 54, 974, 0, 100); // converte
-    Serial.println(luz);                 // envia o valor pro pc
-    Serial.println(val);                 // envia o valor pro pc
-    delay(1000);                         // 1 segundo de delay
+  val = analogRead(sensorPin);         // recebe o valor do potenciometro
+  int luz = map(val, 54, 974, 0, 100); // converte
+  Serial.println(luz);                 // envia o valor pro pc
+  Serial.println(val);                 // envia o valor pro pc
+  delay(200);                          // 200mls segundo de delay
 
-    if (luz > 50)
-    {
-        digitalWrite(verde, LOW);
-        digitalWrite(amarelo, LOW);
-        digitalWrite(vermelho, HIGH);
-        digitalWrite(buzzer, HIGH);
-    }
-    else if (luz > 30)
-    {
-        digitalWrite(verde, LOW);
-        digitalWrite(amarelo, HIGH);
-        digitalWrite(vermelho, LOW);
-        digitalWrite(buzzer, HIGH);
-    }
-    else
-    {
-        digitalWrite(verde, HIGH);
-        digitalWrite(amarelo, LOW);
-        digitalWrite(vermelho, LOW);
-        digitalWrite(buzzer, LOW);
-    }
+  if (luz > 50)
+  {
+    digitalWrite(verde, LOW);
+    digitalWrite(amarelo, LOW);
+    digitalWrite(vermelho, HIGH);
+    digitalWrite(buzzer, HIGH);
+  }
+  else if (luz > 30)
+  {
+    digitalWrite(verde, LOW);
+    digitalWrite(amarelo, HIGH);
+    digitalWrite(vermelho, LOW);
+    digitalWrite(buzzer, LOW);
+  }
+  else
+  {
+    digitalWrite(verde, HIGH);
+    digitalWrite(amarelo, LOW);
+    digitalWrite(vermelho, LOW);
+    digitalWrite(buzzer, LOW);
+  }
 }
